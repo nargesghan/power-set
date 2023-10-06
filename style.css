@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap:10px;
+    
+}
+
+.box{
+   
+    display: block;
+    width: fit-content;
+    min-width: 100px;
+    border-radius: 10px;
+    padding: 4px;
+    background-color: #DAFFFB;
+}
+
+.text{
+    display: inline;
+}
+
+.output{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    background-color: #64CCC5;
+}
+body{
+    background-color: #04364A;
+}
